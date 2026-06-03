@@ -1,117 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```html
+<!-- Replace your title section with this -->
 
-  <title>Services | Bright Mind Academy</title>
+<section class="container py-5 text-center">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+  <h1 class="mb-3">Our Services</h1>
 
-<body>
+  <p class="lead">
+    We provide personalized academic support for students
+    who want to improve their grades, confidence, and
+    college readiness.
+  </p>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+</section>
+
+<!-- Update each card by adding an image at the top -->
+
+<img src="https://via.placeholder.com/300x200"
+     class="card-img-top"
+     alt="Math Tutoring">
+
+<img src="https://via.placeholder.com/300x200"
+     class="card-img-top"
+     alt="SAT Prep">
+
+<img src="https://via.placeholder.com/300x200"
+     class="card-img-top"
+     alt="Study Coaching">
+
+<!-- Add this section after the service cards -->
+
+<section class="bg-light py-5">
+
   <div class="container">
 
-    <a class="navbar-brand" href="index.html">
-      Bright Mind Academy
-    </a>
+    <h2 class="text-center mb-4">
+      Why Choose Bright Mind Academy?
+    </h2>
 
-    <div>
-      <a class="text-white me-3" href="index.html">Home</a>
-      <a class="text-white me-3" href="about.html">About</a>
-      <a class="text-white me-3" href="services.html">Services</a>
-      <a class="text-white me-3" href="business.html">Programs</a>
-      <a class="text-white" href="contact.html">Contact</a>
-    </div>
+    <div class="row text-center">
 
-  </div>
-</nav>
-
-<section class="container py-5">
-
-  <h1 class="mb-4">Our Services</h1>
-
-  <div class="row">
-
-    <div class="col-md-4">
-
-      <div class="card">
-
-        <div class="card-body">
-
-          <h5>Math Tutoring</h5>
-
-          <p>$50 per session</p>
-
-          <p>
-            Personalized tutoring for students
-            struggling with math.
-          </p>
-
-          <button class="btn btn-primary">
-            Book Now
-          </button>
-
-        </div>
+      <div class="col-md-4">
+        <h4>Personalized Learning</h4>
+        <p>
+          Every student receives support based on
+          their individual needs.
+        </p>
       </div>
-    </div>
 
-    <div class="col-md-4">
-
-      <div class="card">
-
-        <div class="card-body">
-
-          <h5>SAT Prep</h5>
-
-          <p>$80 per session</p>
-
-          <p>
-            Prepare for the SAT with practice tests
-            and study strategies.
-          </p>
-
-          <button class="btn btn-primary">
-            Book Now
-          </button>
-
-        </div>
+      <div class="col-md-4">
+        <h4>Experienced Mentoring</h4>
+        <p>
+          We focus on both academic improvement
+          and confidence building.
+        </p>
       </div>
-    </div>
 
-    <div class="col-md-4">
-
-      <div class="card">
-
-        <div class="card-body">
-
-          <h5>Study Coaching</h5>
-
-          <p>$40 per session</p>
-
-          <p>
-            Learn better study habits and improve
-            time management skills.
-          </p>
-
-          <button class="btn btn-primary">
-            Book Now
-          </button>
-
-        </div>
+      <div class="col-md-4">
+        <h4>Flexible Sessions</h4>
+        <p>
+          In-person and online options are available
+          to fit your schedule.
+        </p>
       </div>
+
     </div>
 
   </div>
 
 </section>
 
-<!-- Accordion -->
+<!-- Replace your FAQ section with this -->
+
 <section class="container mb-5">
 
-  <h2 class="mb-3">Frequently Asked Questions</h2>
+  <h2 class="mb-3">
+    Frequently Asked Questions
+  </h2>
 
   <div class="accordion" id="faq">
 
@@ -120,8 +84,8 @@
       <h2 class="accordion-header">
 
         <button class="accordion-button"
-        data-bs-toggle="collapse"
-        data-bs-target="#question1">
+                data-bs-toggle="collapse"
+                data-bs-target="#question1">
 
           Do you offer online tutoring?
 
@@ -130,28 +94,127 @@
       </h2>
 
       <div id="question1"
-      class="accordion-collapse collapse show">
+           class="accordion-collapse collapse show">
 
         <div class="accordion-body">
           Yes, online tutoring is available.
         </div>
 
       </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+      <h2 class="accordion-header">
+
+        <button class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#question2">
+
+          What ages do you work with?
+
+        </button>
+
+      </h2>
+
+      <div id="question2"
+           class="accordion-collapse collapse">
+
+        <div class="accordion-body">
+          We work with middle school and high school students.
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="accordion-item">
+
+      <h2 class="accordion-header">
+
+        <button class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#question3">
+
+          How do I schedule a session?
+
+        </button>
+
+      </h2>
+
+      <div id="question3"
+           class="accordion-collapse collapse">
+
+        <div class="accordion-body">
+          Visit our Contact page and send us a message.
+        </div>
+
+      </div>
+
     </div>
 
   </div>
 
 </section>
 
-<footer class="bg-primary text-white text-center p-3">
+<!-- Add CTA Strip before footer -->
+
+<section class="bg-success text-white text-center py-5">
+
+  <div class="container">
+
+    <h2>
+      Ready to Book Your Session?
+    </h2>
+
+    <p>
+      Contact us today and start working toward your goals.
+    </p>
+
+    <a href="contact.html"
+       class="btn btn-light btn-lg">
+      Book Now
+    </a>
+
+  </div>
+
+</section>
+
+<!-- Replace footer with this -->
+
+<footer class="bg-primary text-white text-center p-4">
+
+  <h5>
+    Bright Mind Academy
+  </h5>
+
+  <div class="mb-3">
+
+    <a href="index.html" class="text-white me-3">
+      Home
+    </a>
+
+    <a href="about.html" class="text-white me-3">
+      About
+    </a>
+
+    <a href="services.html" class="text-white me-3">
+      Services
+    </a>
+
+    <a href="contact.html" class="text-white">
+      Contact
+    </a>
+
+  </div>
+
+  <p>
+    info@brightmindacademy.com
+  </p>
 
   <p>
     © 2026 Bright Mind Academy
   </p>
 
 </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>
