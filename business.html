@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
 
 <body>
 
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
 
@@ -22,75 +24,139 @@
       <a class="text-white me-3" href="index.html">Home</a>
       <a class="text-white me-3" href="about.html">About</a>
       <a class="text-white me-3" href="services.html">Services</a>
-      <a class="text-white me-3" href="business.html">Programs</a>
+      <a class="text-white fw-bold me-3" href="business.html">Programs</a>
       <a class="text-white" href="contact.html">Contact</a>
     </div>
 
   </div>
 </nav>
 
-<section class="container py-5">
+<!-- Header -->
+<section class="bg-light text-center py-5">
 
-  <h1>Student Enrollment</h1>
+  <div class="container">
 
-  <p>
-    Enroll today to start improving your academic performance.
-  </p>
+    <h1>Student Enrollment</h1>
 
-  <form>
+    <p class="lead">
+      Enroll today to start improving your academic performance with personalized tutoring support.
+    </p>
 
-    <div class="mb-3">
-
-      <label for="studentName" class="form-label">
-        Student Name
-      </label>
-
-      <input type="text"
-      class="form-control"
-      id="studentName"
-      required>
-
-    </div>
-
-    <div class="mb-3">
-
-      <label for="grade" class="form-label">
-        Grade Level
-      </label>
-
-      <input type="text"
-      class="form-control"
-      id="grade"
-      required>
-
-    </div>
-
-    <div class="mb-3">
-
-      <label for="subject" class="form-label">
-        Subject
-      </label>
-
-      <input type="text"
-      class="form-control"
-      id="subject"
-      required>
-
-    </div>
-
-    <button class="btn btn-primary">
-      Enroll Now
-    </button>
-
-  </form>
+  </div>
 
 </section>
 
-<footer class="bg-primary text-white text-center p-3">
+<!-- Form + Info -->
+<section class="container py-5">
 
-  <p>
-    © 2026 Bright Mind Academy
-  </p>
+  <div class="row">
+
+    <!-- FORM -->
+    <div class="col-md-6">
+
+      <h2>Enroll Now</h2>
+
+      <form>
+
+        <div class="mb-3">
+
+          <label for="studentName" class="form-label">
+            Student Name
+          </label>
+
+          <input type="text" class="form-control" id="studentName" required>
+
+        </div>
+
+        <div class="mb-3">
+
+          <label for="grade" class="form-label">
+            Grade Level
+          </label>
+
+          <input type="text" class="form-control" id="grade" required>
+
+        </div>
+
+        <div class="mb-3">
+
+          <label for="subject" class="form-label">
+            Subject Needed
+          </label>
+
+          <input type="text" class="form-control" id="subject" required>
+
+        </div>
+
+        <div class="mb-3">
+
+          <label for="email" class="form-label">
+            Parent Email
+          </label>
+
+          <input type="email" class="form-control" id="email" required>
+
+        </div>
+
+        <button class="btn btn-primary">
+          Enroll Now
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- INFO -->
+    <div class="col-md-6">
+
+      <h2>Program Information</h2>
+
+      <p><strong>Hours:</strong> Mon–Fri, 3PM–7PM</p>
+      <p><strong>Location:</strong> 123 Learning Ave, New York</p>
+      <p><strong>Price Range:</strong> $25–$80 per session</p>
+      <p><strong>What You Get:</strong> Tutoring, SAT prep, study coaching</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="bg-success text-white text-center py-5">
+
+  <div class="container">
+
+    <h2>Ready to Start Learning?</h2>
+
+    <p>
+      Submit your enrollment form and we’ll contact you within 24 hours.
+    </p>
+
+    <a href="contact.html" class="btn btn-light btn-lg">
+      Contact Us
+    </a>
+
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center p-4">
+
+  <h5>Bright Mind Academy</h5>
+
+  <div class="mb-3">
+
+    <a href="index.html" class="text-white me-3">Home</a>
+    <a href="about.html" class="text-white me-3">About</a>
+    <a href="services.html" class="text-white me-3">Services</a>
+    <a href="contact.html" class="text-white">Contact</a>
+
+  </div>
+
+  <p>Email: info@brightmindacademy.com</p>
+  <p>© 2026 Bright Mind Academy</p>
 
 </footer>
 
